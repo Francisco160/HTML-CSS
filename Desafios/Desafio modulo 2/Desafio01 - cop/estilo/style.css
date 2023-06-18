@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@font-face {
+  font-family: "idroid";
+  src: url("idroid.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #c5ebd6;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3AD07E, #217546, #1A5A37) ;
+    color: #fff;
+}
+
+main {
+  background-color: white;
+  width: 800px;
+  padding: 10px;
+  margin: auto;
+}
+
+p {
+  text-align: justify;
+}

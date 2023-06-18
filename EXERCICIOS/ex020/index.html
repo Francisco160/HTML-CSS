@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: lightsalmon;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color:darksalmon;
+        }
+
+        a:hover {
+            color:black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: #fffb00;
+        }
+
+        a::after {
+            content: '[link]';
+            color: #e6d1b6;
+        }
+
+        .especial {
+            background-color: green;
+        }
+
+        .especial::after {
+            content: '⇒';
+        }
+
+        .especial::before {
+            content: '⇐';
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos</h1>
+    <ul>
+        <li><a href="https://pt.aliexpress.com/?gatewayAdapt=glo2bra" target="_blank">AliExpress</a></li>
+        <li><a href="https://www.shopify.com/" target="_blank" class="especial">Shopify</a></li>
+        <li><a href="https://www.binance.com/pt-BR" target="_blank" class="especial">Binace</a></li>
+    </ul>
+</body>
+</html>
