@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +15,8 @@
             border-collapse: collapse;
         }
 
-        td, th {
+        td,
+        th {
             border: 1px solid black;
             padding: 10px;
         }
@@ -25,9 +27,26 @@
             padding: 10px;
         }
 
-        thead, tfoot {
-            background-color: gray;
+        thead,
+        tfoot {
+            background-color: #808080;
             color: white;
+        }
+
+        thead>tr>th {
+            position: sticky;
+            top: 0;
+            background-color: #808080
+        }
+
+        tbody>tr:nth-child(odd) {
+            /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody>tr:nth-child(even) {
+            /* 2n */
+            background-color: lightgray;
         }
 
         td.num {
@@ -35,6 +54,7 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Uso de tabelas grandes</h1>
     <!--
@@ -56,7 +76,7 @@
                 <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
-        
+
         <tbody>
             <tr>
                 <td>Espanha</td>
@@ -174,5 +194,102 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos ut laboriosam, odit doloremque sequi
+        consequatur facere illum quod temporibus? Ad enim expedita error voluptates illum eligendi odio eius dolorem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repudiandae necessitatibus facere, earum quaerat
+        minima ut laudantium commodi architecto perspiciatis hic nisi esse porro modi accusamus cupiditate numquam animi
+        perferendis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odio quas molestias atque explicabo nihil ipsa
+        obcaecati debitis rerum officiis. At voluptatem ex dolore earum voluptatum iure perspiciatis perferendis
+        asperiores!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequuntur explicabo, ipsa reiciendis,
+        exercitationem quam ad non, doloremque delectus laborum animi quisquam vero maxime impedit nulla consectetur
+        accusantium nisi pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vero aliquid nisi esse
+        sequi, minima animi error quasi omnis dignissimos mollitia officia cum! Illo sed ad at vel magni mollitia?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid quae dicta culpa, magni distinctio
+        earum consequatur similique exercitationem facere nisi vitae ut! Eum, in. Aliquid atque numquam exercitationem
+        ad.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos ut laboriosam, odit doloremque sequi
+        consequatur facere illum quod temporibus? Ad enim expedita error voluptates illum eligendi odio eius dolorem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repudiandae necessitatibus facere, earum quaerat
+        minima ut laudantium commodi architecto perspiciatis hic nisi esse porro modi accusamus cupiditate numquam animi
+        perferendis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odio quas molestias atque explicabo nihil ipsa
+        obcaecati debitis rerum officiis. At voluptatem ex dolore earum voluptatum iure perspiciatis perferendis
+        asperiores!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequuntur explicabo, ipsa reiciendis,
+        exercitationem quam ad non, doloremque delectus laborum animi quisquam vero maxime impedit nulla consectetur
+        accusantium nisi pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vero aliquid nisi esse
+        sequi, minima animi error quasi omnis dignissimos mollitia officia cum! Illo sed ad at vel magni mollitia?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid quae dicta culpa, magni distinctio
+        earum consequatur similique exercitationem facere nisi vitae ut! Eum, in. Aliquid atque numquam exercitationem
+        ad.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos ut laboriosam, odit doloremque sequi
+        consequatur facere illum quod temporibus? Ad enim expedita error voluptates illum eligendi odio eius dolorem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repudiandae necessitatibus facere, earum quaerat
+        minima ut laudantium commodi architecto perspiciatis hic nisi esse porro modi accusamus cupiditate numquam animi
+        perferendis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odio quas molestias atque explicabo nihil ipsa
+        obcaecati debitis rerum officiis. At voluptatem ex dolore earum voluptatum iure perspiciatis perferendis
+        asperiores!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequuntur explicabo, ipsa reiciendis,
+        exercitationem quam ad non, doloremque delectus laborum animi quisquam vero maxime impedit nulla consectetur
+        accusantium nisi pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vero aliquid nisi esse
+        sequi, minima animi error quasi omnis dignissimos mollitia officia cum! Illo sed ad at vel magni mollitia?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid quae dicta culpa, magni distinctio
+        earum consequatur similique exercitationem facere nisi vitae ut! Eum, in. Aliquid atque numquam exercitationem
+        ad.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos ut laboriosam, odit doloremque sequi
+        consequatur facere illum quod temporibus? Ad enim expedita error voluptates illum eligendi odio eius dolorem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repudiandae necessitatibus facere, earum quaerat
+        minima ut laudantium commodi architecto perspiciatis hic nisi esse porro modi accusamus cupiditate numquam animi
+        perferendis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odio quas molestias atque explicabo nihil ipsa
+        obcaecati debitis rerum officiis. At voluptatem ex dolore earum voluptatum iure perspiciatis perferendis
+        asperiores!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequuntur explicabo, ipsa reiciendis,
+        exercitationem quam ad non, doloremque delectus laborum animi quisquam vero maxime impedit nulla consectetur
+        accusantium nisi pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vero aliquid nisi esse
+        sequi, minima animi error quasi omnis dignissimos mollitia officia cum! Illo sed ad at vel magni mollitia?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid quae dicta culpa, magni distinctio
+        earum consequatur similique exercitationem facere nisi vitae ut! Eum, in. Aliquid atque numquam exercitationem
+        ad.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos ut laboriosam, odit doloremque sequi
+        consequatur facere illum quod temporibus? Ad enim expedita error voluptates illum eligendi odio eius dolorem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repudiandae necessitatibus facere, earum quaerat
+        minima ut laudantium commodi architecto perspiciatis hic nisi esse porro modi accusamus cupiditate numquam animi
+        perferendis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odio quas molestias atque explicabo nihil ipsa
+        obcaecati debitis rerum officiis. At voluptatem ex dolore earum voluptatum iure perspiciatis perferendis
+        asperiores!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequuntur explicabo, ipsa reiciendis,
+        exercitationem quam ad non, doloremque delectus laborum animi quisquam vero maxime impedit nulla consectetur
+        accusantium nisi pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vero aliquid nisi esse
+        sequi, minima animi error quasi omnis dignissimos mollitia officia cum! Illo sed ad at vel magni mollitia?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid quae dicta culpa, magni distinctio
+        earum consequatur similique exercitationem facere nisi vitae ut! Eum, in. Aliquid atque numquam exercitationem
+        ad.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dignissimos ut laboriosam, odit doloremque sequi
+        consequatur facere illum quod temporibus? Ad enim expedita error voluptates illum eligendi odio eius dolorem.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repudiandae necessitatibus facere, earum quaerat
+        minima ut laudantium commodi architecto perspiciatis hic nisi esse porro modi accusamus cupiditate numquam animi
+        perferendis.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odio quas molestias atque explicabo nihil ipsa
+        obcaecati debitis rerum officiis. At voluptatem ex dolore earum voluptatum iure perspiciatis perferendis
+        asperiores!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequuntur explicabo, ipsa reiciendis,
+        exercitationem quam ad non, doloremque delectus laborum animi quisquam vero maxime impedit nulla consectetur
+        accusantium nisi pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vero aliquid nisi esse
+        sequi, minima animi error quasi omnis dignissimos mollitia officia cum! Illo sed ad at vel magni mollitia?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid quae dicta culpa, magni distinctio
+        earum consequatur similique exercitationem facere nisi vitae ut! Eum, in. Aliquid atque numquam exercitationem
+        ad.
+    </p>
 </body>
+
 </html>
